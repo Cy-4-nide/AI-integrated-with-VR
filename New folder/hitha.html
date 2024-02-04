@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VR Website</title>
+    <style>
+        
+
+        body {
+            margin: 0;
+            overflow: hidden;
+            font-family: 'Arial', sans-serif;
+        }
+
+        #vr-container {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+#background {
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url('world.jpg');
+            background-size: cover;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+
+        #content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: #FFF;
+        }
+
+        h1 {
+            font-size: 3em;
+        }
+
+        p {
+            font-size: 1.5em;
+        }
+    </style>
+</head>
+<body>
+    <div id="vr-container">
+        <div id="background"></div>
+        <div id="content">
+            
+            <h1>Indulge in the glory of India</h1>
+            <p>Explore amazing virtual reality experiences.</p>
+            <nav>
+                <a href="web.html"><i class="fas-fa globle icon"></i>Let's begin</a>
+            </nav>
+        </div>
+    </div>
+</body>
+</html>

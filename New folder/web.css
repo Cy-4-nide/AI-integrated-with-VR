@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VR Tourism</title>
+    <!-- Include Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-5+86KxfDRaVWF+kYjqqDaWg/y/ENaGmUEkZs9PYJwOMeC8eY+1OtkTdQRwP1Uy+a" crossorigin="anonymous">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+        }
+        .container {
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            width: 80%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .icon {
+            font-size: 36px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>VR Tourism</h1>
+    </header>
+    <nav>
+        <a href="#"><i class="fas fa-globe icon"></i>Explore</a>
+        <a href="#"><i class="fas fa-camera icon"></i>Gallery</a>
+        <a href="#"><i class="fas fa-map-marker-alt icon"></i>Locations</a>
+        <a href="#"><i class="fas fa-comments icon"></i>Feedback</a>
+    </nav>
+    <div class="container">
+        <h2>Welcome to VR Tourism</h2>
+        <p>Experience virtual reality tours of breathtaking destinations around the world.</p>
+        <p>Start your adventure now!</p>
+        <p>Follow us on social media: <i class="fab fa-facebook"></i> <i class="fab fa-twitter"></i> <i class="fab fa-instagram"></i></p>
+    </div>
+</body>
+</html>

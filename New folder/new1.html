@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>VR India Tourism</title>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+</head>
+<body>
+    <a-scene>
+        <!-- Camera -->
+        <a-entity camera look-controls position="0 1.6 0"></a-entity>
+
+        <!-- Sky -->
+        <a-sky src="BG.jpg" rotation="0 -130 0"></a-sky>
+
+        <!-- Locations -->
+        <!-- Taj Mahal -->
+        <a-image src="Taj_Mahal.jpg" position="-10 0 -20" scale="5 5 5" rotation="0 90 0" onclick="changeLocation('taj_mahal')"></a-image>
+        <!-- Goa Beach -->
+        <a-image src="goa_beach.jpg" position="10 0 -20" scale="5 5 5" rotation="0 -90 0" onclick="changeLocation('goa_beach')"></a-image>
+        <!-- Add more locations -->
+
+        <!-- Script for changing location -->
+        <script>
+            function changeLocation(location) {
+                var sky = document.querySelector('a-sky');
+                var image = document.querySelector('a-image');
+                sky.setAttribute('src', location + '.jpg');
+                image.setAttribute('src', location + '.jpg');
+            }
+        </script>
+    </a-scene>
+</body>
+</html>
